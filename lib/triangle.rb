@@ -15,11 +15,11 @@ class Triangle
     elsif (@a + @b <= @c || @a + @c <= @b || @b + @c <= @a)
       raise TriangleError 
     else 
-      if (@a != @b) && (@b != @c) @@ (@a != @c)
+      if (@a != @b) && (@b != @c) && (@a != @c)
         :scalene
       elsif (@a == @b) || (@b == @c) || (@b == @c)
         :isosceles
-      elsif (@a == @b == @c)
+      elsif (@a == @b) && (@b == @c) && (@a == @c)
         :equilateral
       end
     end
