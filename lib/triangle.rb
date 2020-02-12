@@ -19,7 +19,11 @@ class Triangle
         :scalene
       elsif (@a == @b) || (@b == @c) || (@b == @c)
         :isosceles
-      elsif 
+      elsif (@a == @b == @c)
+        :equilateral
+      end
+    end
+  end
   
   class TriangleError < StandardError
   end
