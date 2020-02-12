@@ -19,7 +19,7 @@ class Triangle
         :scalene
       elsif (@a == @b) || (@b == @c) || (@a == @c)
         :isosceles
-      elsif (@a == @b) && (@b == @c) && (@a == @c)
+      elsif (@a == @b) && (@b == @c)
         :equilateral
       end
     end
