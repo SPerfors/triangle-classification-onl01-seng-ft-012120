@@ -18,7 +18,8 @@ class Triangle
       if (@a != @b != @c) 
         :scalene
       elsif (@a == @b) || (@b == @c) || (@b == @c)
-        :
+        :isosceles
+      elsif 
   
   class TriangleError < StandardError
   end
