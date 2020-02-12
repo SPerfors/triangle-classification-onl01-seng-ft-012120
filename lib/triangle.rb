@@ -16,7 +16,7 @@ class Triangle
       raise TriangleError 
     else 
       if @a != @b != @c 
-        :isosceles
+        :scalene
       elsif 
   
   class TriangleError < StandardError
