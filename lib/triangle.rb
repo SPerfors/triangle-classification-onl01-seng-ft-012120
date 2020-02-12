@@ -15,9 +15,10 @@ class Triangle
     elsif (@a + @b <= @c || @a + @c <= @b || @b + @c <= @a)
       raise TriangleError 
     else 
-      if @a != @b != @c 
+      if (@a != @b != @c) 
         :scalene
-      elsif 
+      elsif (@a == @b) || (@b == @c) || (@b == @c)
+        :
   
   class TriangleError < StandardError
   end
