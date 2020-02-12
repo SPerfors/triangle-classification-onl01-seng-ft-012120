@@ -15,7 +15,9 @@ class Triangle
     elsif (@a + @b <= @c || @a + @c <= @b || @b + @c <= @a)
       raise TriangleError 
     else 
-      if 
+      if @a != @b != @c 
+        :isosceles
+      elsif 
   
   class TriangleError < StandardError
   end
