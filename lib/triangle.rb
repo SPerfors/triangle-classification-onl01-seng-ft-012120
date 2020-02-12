@@ -1,7 +1,7 @@
 require 'pry'
 
 class Triangle
-  attr_accessor :triangle, :side, :equilateral, :isosceles, :scalene
+  #attr_accessor :triangle, :side, :equilateral, :isosceles, :scalene
   
   def initialize()
     @name = name 
